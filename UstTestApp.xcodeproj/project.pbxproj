@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4DB5A952BF58F3B00E7E6AA /* CoredataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DB5A942BF58F3B00E7E6AA /* CoredataHelper.swift */; };
+		DF36EA5C2BF45946001CB93F /* Detail Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF36EA5B2BF45946001CB93F /* Detail Model.swift */; };
+		DF36EA5E2BF45964001CB93F /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF36EA5D2BF45964001CB93F /* DetailViewModel.swift */; };
+		DF36EA602BF4598D001CB93F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF36EA5F2BF4598D001CB93F /* DetailViewController.swift */; };
+		DF36EA632BF47AB2001CB93F /* HomeScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF36EA622BF47AB2001CB93F /* HomeScreenModel.swift */; };
+		DF36EA672BF47AF0001CB93F /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF36EA662BF47AF0001CB93F /* HomeScreenViewController.swift */; };
+		DF36EA6B2BF5B631001CB93F /* HomeScreenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF36EA692BF5B631001CB93F /* HomeScreenCell.swift */; };
+		DF36EA6C2BF5B631001CB93F /* HomeScreenCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF36EA6A2BF5B631001CB93F /* HomeScreenCell.xib */; };
+		DF36EA6E2BF5B95D001CB93F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF36EA6D2BF5B95D001CB93F /* LoginViewModel.swift */; };
+		DF36EA702BF5D72A001CB93F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF36EA6F2BF5D72A001CB93F /* HomeViewModel.swift */; };
+		DF55F28E2BF2605100301947 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF55F28D2BF2605100301947 /* AppDelegate.swift */; };
+		DF55F2902BF2605100301947 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF55F28F2BF2605100301947 /* SceneDelegate.swift */; };
+		DF55F2952BF2605100301947 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF55F2932BF2605100301947 /* Main.storyboard */; };
+		DF55F2982BF2605100301947 /* UstTestApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF55F2962BF2605100301947 /* UstTestApp.xcdatamodeld */; };
+		DF55F29A2BF2605600301947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF55F2992BF2605600301947 /* Assets.xcassets */; };
+		DF55F29D2BF2605600301947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF55F29B2BF2605600301947 /* LaunchScreen.storyboard */; };
+		DF55F2A92BF260CA00301947 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF55F2A82BF260CA00301947 /* LoginViewController.m */; };
+		DF55F2B62BF3299500301947 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DF55F2B52BF3299500301947 /* FirebaseAuth */; };
+		DF55F2B82BF34B3E00301947 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF55F2B72BF34B3E00301947 /* GoogleService-Info.plist */; };
+		DF55F2BB2BF35F6700301947 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = DF55F2BA2BF35F6700301947 /* GoogleSignIn */; };
+		DF55F2BD2BF35F6700301947 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DF55F2BC2BF35F6700301947 /* GoogleSignInSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D4DB5A942BF58F3B00E7E6AA /* CoredataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoredataHelper.swift; sourceTree = "<group>"; };
+		DF36EA5B2BF45946001CB93F /* Detail Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Detail Model.swift"; sourceTree = "<group>"; };
+		DF36EA5D2BF45964001CB93F /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		DF36EA5F2BF4598D001CB93F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DF36EA622BF47AB2001CB93F /* HomeScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenModel.swift; sourceTree = "<group>"; };
+		DF36EA662BF47AF0001CB93F /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		DF36EA692BF5B631001CB93F /* HomeScreenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenCell.swift; sourceTree = "<group>"; };
+		DF36EA6A2BF5B631001CB93F /* HomeScreenCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeScreenCell.xib; sourceTree = "<group>"; };
+		DF36EA6D2BF5B95D001CB93F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		DF36EA6F2BF5D72A001CB93F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		DF55F28A2BF2605100301947 /* UstTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UstTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF55F28D2BF2605100301947 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF55F28F2BF2605100301947 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF55F2942BF2605100301947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF55F2972BF2605100301947 /* UstTestApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UstTestApp.xcdatamodel; sourceTree = "<group>"; };
+		DF55F2992BF2605600301947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF55F29C2BF2605600301947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF55F29E2BF2605600301947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF55F2A42BF2609300301947 /* UstTestApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UstTestApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		DF55F2A72BF260CA00301947 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		DF55F2A82BF260CA00301947 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		DF55F2B72BF34B3E00301947 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF55F2872BF2605000301947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF55F2BD2BF35F6700301947 /* GoogleSignInSwift in Frameworks */,
+				DF55F2B62BF3299500301947 /* FirebaseAuth in Frameworks */,
+				DF55F2BB2BF35F6700301947 /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4DB5A932BF58F2500E7E6AA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D4DB5A942BF58F3B00E7E6AA /* CoredataHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DF36EA5A2BF458F6001CB93F /* Detail Module */ = {
+			isa = PBXGroup;
+			children = (
+				DF36EA5B2BF45946001CB93F /* Detail Model.swift */,
+				DF36EA5D2BF45964001CB93F /* DetailViewModel.swift */,
+				DF36EA5F2BF4598D001CB93F /* DetailViewController.swift */,
+			);
+			path = "Detail Module";
+			sourceTree = "<group>";
+		};
+		DF36EA612BF47A7F001CB93F /* Home Module */ = {
+			isa = PBXGroup;
+			children = (
+				DF36EA622BF47AB2001CB93F /* HomeScreenModel.swift */,
+				DF36EA662BF47AF0001CB93F /* HomeScreenViewController.swift */,
+				DF36EA692BF5B631001CB93F /* HomeScreenCell.swift */,
+				DF36EA6A2BF5B631001CB93F /* HomeScreenCell.xib */,
+				DF36EA6F2BF5D72A001CB93F /* HomeViewModel.swift */,
+			);
+			path = "Home Module";
+			sourceTree = "<group>";
+		};
+		DF36EA682BF48EAA001CB93F /* Login Module */ = {
+			isa = PBXGroup;
+			children = (
+				DF55F2A72BF260CA00301947 /* LoginViewController.h */,
+				DF55F2A82BF260CA00301947 /* LoginViewController.m */,
+				DF36EA6D2BF5B95D001CB93F /* LoginViewModel.swift */,
+			);
+			path = "Login Module";
+			sourceTree = "<group>";
+		};
+		DF55F2812BF2605000301947 = {
+			isa = PBXGroup;
+			children = (
+				DF55F28C2BF2605100301947 /* UstTestApp */,
+				DF55F28B2BF2605100301947 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF55F28B2BF2605100301947 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF55F28A2BF2605100301947 /* UstTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF55F28C2BF2605100301947 /* UstTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				D4DB5A932BF58F2500E7E6AA /* Helpers */,
+				DF36EA682BF48EAA001CB93F /* Login Module */,
+				DF36EA612BF47A7F001CB93F /* Home Module */,
+				DF36EA5A2BF458F6001CB93F /* Detail Module */,
+				DF55F2B72BF34B3E00301947 /* GoogleService-Info.plist */,
+				DF55F28D2BF2605100301947 /* AppDelegate.swift */,
+				DF55F28F2BF2605100301947 /* SceneDelegate.swift */,
+				DF55F2932BF2605100301947 /* Main.storyboard */,
+				DF55F2992BF2605600301947 /* Assets.xcassets */,
+				DF55F29B2BF2605600301947 /* LaunchScreen.storyboard */,
+				DF55F29E2BF2605600301947 /* Info.plist */,
+				DF55F2962BF2605100301947 /* UstTestApp.xcdatamodeld */,
+				DF55F2A42BF2609300301947 /* UstTestApp-Bridging-Header.h */,
+			);
+			path = UstTestApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF55F2892BF2605000301947 /* UstTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF55F2A12BF2605600301947 /* Build configuration list for PBXNativeTarget "UstTestApp" */;
+			buildPhases = (
+				DF55F2862BF2605000301947 /* Sources */,
+				DF55F2872BF2605000301947 /* Frameworks */,
+				DF55F2882BF2605000301947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UstTestApp;
+			packageProductDependencies = (
+				DF55F2B52BF3299500301947 /* FirebaseAuth */,
+				DF55F2BA2BF35F6700301947 /* GoogleSignIn */,
+				DF55F2BC2BF35F6700301947 /* GoogleSignInSwift */,
+			);
+			productName = UstTestApp;
+			productReference = DF55F28A2BF2605100301947 /* UstTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF55F2822BF2605000301947 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DF55F2892BF2605000301947 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+				};
+			};
+			buildConfigurationList = DF55F2852BF2605000301947 /* Build configuration list for PBXProject "UstTestApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF55F2812BF2605000301947;
+			packageReferences = (
+				DF55F2B42BF3299500301947 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				DF55F2B92BF35F6700301947 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = DF55F28B2BF2605100301947 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF55F2892BF2605000301947 /* UstTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF55F2882BF2605000301947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF55F29D2BF2605600301947 /* LaunchScreen.storyboard in Resources */,
+				DF55F2B82BF34B3E00301947 /* GoogleService-Info.plist in Resources */,
+				DF55F29A2BF2605600301947 /* Assets.xcassets in Resources */,
+				DF55F2952BF2605100301947 /* Main.storyboard in Resources */,
+				DF36EA6C2BF5B631001CB93F /* HomeScreenCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF55F2862BF2605000301947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF36EA5C2BF45946001CB93F /* Detail Model.swift in Sources */,
+				D4DB5A952BF58F3B00E7E6AA /* CoredataHelper.swift in Sources */,
+				DF55F2982BF2605100301947 /* UstTestApp.xcdatamodeld in Sources */,
+				DF36EA6B2BF5B631001CB93F /* HomeScreenCell.swift in Sources */,
+				DF36EA672BF47AF0001CB93F /* HomeScreenViewController.swift in Sources */,
+				DF36EA6E2BF5B95D001CB93F /* LoginViewModel.swift in Sources */,
+				DF55F2A92BF260CA00301947 /* LoginViewController.m in Sources */,
+				DF36EA5E2BF45964001CB93F /* DetailViewModel.swift in Sources */,
+				DF55F28E2BF2605100301947 /* AppDelegate.swift in Sources */,
+				DF36EA702BF5D72A001CB93F /* HomeViewModel.swift in Sources */,
+				DF36EA602BF4598D001CB93F /* DetailViewController.swift in Sources */,
+				DF55F2902BF2605100301947 /* SceneDelegate.swift in Sources */,
+				DF36EA632BF47AB2001CB93F /* HomeScreenModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF55F2932BF2605100301947 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF55F2942BF2605100301947 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF55F29B2BF2605600301947 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF55F29C2BF2605600301947 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF55F29F2BF2605600301947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF55F2A02BF2605600301947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF55F2A22BF2605600301947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UstTestApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vhz.UstTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "UstTestApp/UstTestApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF55F2A32BF2605600301947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UstTestApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vhz.UstTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "UstTestApp/UstTestApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF55F2852BF2605000301947 /* Build configuration list for PBXProject "UstTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF55F29F2BF2605600301947 /* Debug */,
+				DF55F2A02BF2605600301947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF55F2A12BF2605600301947 /* Build configuration list for PBXNativeTarget "UstTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF55F2A22BF2605600301947 /* Debug */,
+				DF55F2A32BF2605600301947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DF55F2B42BF3299500301947 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		DF55F2B92BF35F6700301947 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DF55F2B52BF3299500301947 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF55F2B42BF3299500301947 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DF55F2BA2BF35F6700301947 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF55F2B92BF35F6700301947 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		DF55F2BC2BF35F6700301947 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF55F2B92BF35F6700301947 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		DF55F2962BF2605100301947 /* UstTestApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF55F2972BF2605100301947 /* UstTestApp.xcdatamodel */,
+			);
+			currentVersion = DF55F2972BF2605100301947 /* UstTestApp.xcdatamodel */;
+			path = UstTestApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF55F2822BF2605000301947 /* Project object */;
+}
